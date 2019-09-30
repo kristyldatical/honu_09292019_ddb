@@ -22,4 +22,11 @@
     <changeSet author="kristyldatical" created="2019-09-30 02:07+0000" datical:origFileName="create_prochelloworld_2.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="2" datical:versionStrategy="DEPLOY_ALL" id="20190930020709_create_prochelloworld_2" labels="create_prochelloworld_2.sql">
         <dropProcedure procedureName="PROC_HELLO_WORLD_2" schemaName="HONU_SCHEMA09292019_A"/>
     </changeSet>
+    <changeSet appdba:scriptChecksum="f5918b4edda05bbf99f853000cdb5eed" author="kristyldatical" created="2019-09-30 15:37+0000" datical:origFileName="proc333.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="0" datical:versionStrategy="DEPLOY_ALL" id="2019093015372339_proc333-v0" ignore="true" labels="proc333.sql">
+        <dropProcedure procedureName="PROC_3333" schemaName="HONU_SCHEMA09292019_A"/>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="f5918b4edda05bbf99f853000cdb5eed" author="kristyldatical" created="2019-09-30 15:37+0000" datical:origFileName="proc333.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="2019093015372339_proc333" labels="proc333.sql">
+        <createProcedure path="procedure/2019093015372339_proc333.sql" procedureName="PROC_3333" schemaName="HONU_SCHEMA09292019_A"/>
+        <comment>Adding proc3333</comment>
+    </changeSet>
 </databaseChangeLog>
