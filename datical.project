@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<dbproject:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dbproject="http://datical.com/db/project/1.0" name="Honu_09292019" storedLogicExternal="true" deployThreshold="stopOnError" runtimeCredentials="false" multiSchema="true" dbSchemaDefinition="project" schemaSelectionStep="REF" trackingSchema="HONU_TRACKING_SCHEMA09292019" enableRowCount="disabled" multiCatalog="false">
+  <dbDefs xsi:type="dbproject:OracleDbDef" name="REF" driver="oracle.jdbc.OracleDriver" hostname="3.209.15.24" port="1521" username="intuser" password="aW50dXNlcjcz" serviceName="orcl" enableCompression="false" rowsPerBatch="10000" useWallet="false"/>
+  <plans name="Honu_09292019" databaseDefs="//@dbDefs[name='REF']"/>
+  <changelog href="Changelog/changelog.xml#//@databaseChangeLog"/>
+  <schemas name="HONU_SCHEMA09292019_A"/>
+  <schemas name="HONU_SCHEMA09292019_B"/>
+</dbproject:Project>
