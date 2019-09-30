@@ -1,2 +1,25 @@
 <?xml version="1.1" encoding="UTF-8" standalone="no"?>
-<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:appdba="http://www.datical.net/xml/ns/appdba" xmlns:datical="http://www.datical.net/xml/ns/datical" xmlns:storedlogic="http://www.datical.net/xml/ns/storedlogic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" logicalFilePath="Changelog/changelog.xml" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd"/>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:appdba="http://www.datical.net/xml/ns/appdba" xmlns:datical="http://www.datical.net/xml/ns/datical" xmlns:storedlogic="http://www.datical.net/xml/ns/storedlogic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" logicalFilePath="Changelog/changelog.xml" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <changeSet appdba:scriptChecksum="cc819ad4e029739177e6e9ca33f472b7" author="Administrator (generated)" created="2019-09-30 01:46+0000" datical:origFileName="my_table_2.sql" datical:origFilePath="ddl" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="553j-1 (createTable tableName=MY_TABLE_2)" labels="my_table_2.sql" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <createTable schemaName="HONU_SCHEMA09292019_A" tableName="MY_TABLE_2">
+            <column name="ID" type="NUMBER(*, 0)"/>
+        </createTable>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="ef88accf69b7ef039e4635768e2dd454" author="kristyldatical" created="2019-09-30 01:52+0000" datical:origFileName="create_prochelloworld.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="0" datical:versionStrategy="DEPLOY_ALL" id="20190930015235203_create_prochelloworld-v0" ignore="true" labels="create_prochelloworld.sql">
+        <dropProcedure procedureName="PROC_HELLO_WORLD" schemaName="HONU_SCHEMA09292019_A"/>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="ef88accf69b7ef039e4635768e2dd454" author="kristyldatical" created="2019-09-30 01:52+0000" datical:origFileName="create_prochelloworld.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20190930015235203_create_prochelloworld" labels="create_prochelloworld.sql">
+        <createProcedure path="procedure/20190930015235203_create_prochelloworld.sql" procedureName="PROC_HELLO_WORLD" schemaName="HONU_SCHEMA09292019_A"/>
+        <comment>Adding proc 1</comment>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="119fbca189bd19f3b61afa85cda37151" author="kristyldatical" created="2019-09-30 02:07+0000" datical:origFileName="create_prochelloworld_2.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="0" datical:versionStrategy="DEPLOY_ALL" id="20190930020707624_create_prochelloworld_2-v0" ignore="true" labels="create_prochelloworld_2.sql">
+        <dropProcedure procedureName="PROC_HELLO_WORLD_2" schemaName="HONU_SCHEMA09292019_A"/>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="119fbca189bd19f3b61afa85cda37151" author="kristyldatical" created="2019-09-30 02:07+0000" datical:origFileName="create_prochelloworld_2.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20190930020707624_create_prochelloworld_2" labels="create_prochelloworld_2.sql">
+        <createProcedure path="procedure/20190930020707624_create_prochelloworld_2.sql" procedureName="PROC_HELLO_WORLD_2" schemaName="HONU_SCHEMA09292019_A"/>
+        <comment>add proc 2 again with comment</comment>
+    </changeSet>
+    <changeSet author="kristyldatical" created="2019-09-30 02:07+0000" datical:origFileName="create_prochelloworld_2.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="2" datical:versionStrategy="DEPLOY_ALL" id="20190930020709_create_prochelloworld_2" labels="create_prochelloworld_2.sql">
+        <dropProcedure procedureName="PROC_HELLO_WORLD_2" schemaName="HONU_SCHEMA09292019_A"/>
+    </changeSet>
+</databaseChangeLog>
