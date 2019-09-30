@@ -39,4 +39,14 @@
     <changeSet author="kristyldatical" created="2019-09-30 15:44+0000" datical:origFileName="proc4444.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="2" datical:versionStrategy="DEPLOY_ALL" id="20190930154432_proc4444" labels="proc4444.sql">
         <dropProcedure procedureName="PROC_4444" schemaName="HONU_SCHEMA09292019_A"/>
     </changeSet>
+    <changeSet appdba:scriptChecksum="4d7bffc4c36e1faef3dad391566a3304" author="kristyldatical" created="2019-09-30 16:31+0000" datical:origFileName="proc6666.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="0" datical:versionStrategy="DEPLOY_ALL" id="20190930163149784_proc6666-v0" ignore="true" labels="proc6666.sql">
+        <dropProcedure procedureName="PROC_6666" schemaName="HONU_SCHEMA09292019_A"/>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="4d7bffc4c36e1faef3dad391566a3304" author="kristyldatical" created="2019-09-30 16:31+0000" datical:origFileName="proc6666.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20190930163149784_proc6666" labels="proc6666.sql">
+        <createProcedure path="procedure/20190930163149784_proc6666.sql" procedureName="PROC_6666" schemaName="HONU_SCHEMA09292019_A"/>
+        <comment>re-added proc6666</comment>
+    </changeSet>
+    <changeSet author="kristyldatical" created="2019-09-30 16:31+0000" datical:origFileName="proc6666.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="2" datical:versionStrategy="DEPLOY_ALL" id="20190930163151_proc6666" labels="proc6666.sql">
+        <dropProcedure procedureName="PROC_6666" schemaName="HONU_SCHEMA09292019_A"/>
+    </changeSet>
 </databaseChangeLog>
