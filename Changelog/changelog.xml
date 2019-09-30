@@ -29,4 +29,14 @@
         <createProcedure path="procedure/2019093015372339_proc333.sql" procedureName="PROC_3333" schemaName="HONU_SCHEMA09292019_A"/>
         <comment>Adding proc3333</comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="1164e45f4ccfa707e8c0f7e753111114" author="kristyldatical" created="2019-09-30 15:44+0000" datical:origFileName="proc4444.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="0" datical:versionStrategy="DEPLOY_ALL" id="20190930154429942_proc4444-v0" ignore="true" labels="proc4444.sql">
+        <dropProcedure procedureName="PROC_4444" schemaName="HONU_SCHEMA09292019_A"/>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="1164e45f4ccfa707e8c0f7e753111114" author="kristyldatical" created="2019-09-30 15:44+0000" datical:origFileName="proc4444.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20190930154429942_proc4444" labels="proc4444.sql">
+        <createProcedure path="procedure/20190930154429942_proc4444.sql" procedureName="PROC_4444" schemaName="HONU_SCHEMA09292019_A"/>
+        <comment>re-added proc4444</comment>
+    </changeSet>
+    <changeSet author="kristyldatical" created="2019-09-30 15:44+0000" datical:origFileName="proc4444.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="2" datical:versionStrategy="DEPLOY_ALL" id="20190930154432_proc4444" labels="proc4444.sql">
+        <dropProcedure procedureName="PROC_4444" schemaName="HONU_SCHEMA09292019_A"/>
+    </changeSet>
 </databaseChangeLog>
